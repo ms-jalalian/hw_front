@@ -1,0 +1,129 @@
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.child{
+    width: 25%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    /* border: black solid .1px; */
+}
+.sub-p1{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    font-family:BYekan,'BYekan',tahoma;
+    color: white;
+    text-align: center;
+    /* border: black solid 0.1px; */
+}
+.sub-p2{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-family:BYekan,'BYekan',tahoma;
+    color: white;
+    text-align: center;
+    /* border: black solid 0.1px; */
+}
+.user-input{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    width: 100%;
+    height: 50px;
+    /* border: black solid 0.1px; */
+    border-bottom: white solid;
+}
+.icon{
+    width: 10%;
+    height: 40%;
+    color: white;
+    align-self: flex-end;
+    /* border: black solid 0.1px; */
+}
+input[type="text"]{
+    width: 90%;
+    height: 40%;
+    text-align: end;
+    align-self: flex-end;
+    background-color: transparent;
+    border-color: transparent;
+}
+input::placeholder{
+    /* direction: rtl; */
+    font-size: 12px;
+    font-family:BYekan,'BYekan',tahoma;
+    color: white;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 60px;
+    background-color: #1d89e4;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family:BYekan,'BYekan',tahoma;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.blank{
+    width: 100%;
+    height: 50px;
+    /* border: black solid 0.1px; */
+}
+.tiny{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+a{
+    text-decoration-line: none;
+    font-size: 15px;
+    font-family:BYekan,'BYekan',tahoma;
+    color: white;
+}
+.pass{
+    width: 60%;
+    height: 80%;
+    align-self: flex-end;
+    /* border: black solid 0.1px; */
+}
+.remember{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40%;
+    height: 65%;
+    align-self: flex-end;
+    /* border: black solid 0.1px; */
+}
+#me{
+    font-size: 15px;
+    font-family:BYekan,'BYekan',tahoma;
+    color: white;
+}
+.image{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* border: black solid 0.1px; */
+}

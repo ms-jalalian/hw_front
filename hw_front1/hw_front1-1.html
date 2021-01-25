@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw_front1-1</title>
+    <style>
+        #male{
+            font-size: small;
+        }
+        .context-menu {cursor: context-menu;}
+    </style>
+</head>
+<body>
+    <div style="border: #d9d9d9 solid .1px;width: 300px;border-top: solid #6f6f6f .05px;border-bottom: solid white; height: 250px;">
+            <fieldset style="border: solid #b7b7b7 .1px;width: 145px;height: 50px;margin-top: 30px;margin-left: 100.5px;">
+                <legend style="font-size: 15px;">Title</legend>
+                <form >
+                    <input type="radio" id="male" name="gender" value="male" >
+                    <label for="male" style="font-size: 15px;" >Mister</label><br>
+                    <input type="radio" id="female" name="gender" value="female" >
+                    <label for="female" style="font-size: 15px;">Miss</label><br>
+                </form>
+            </fieldset><br>
+            <form style="position: relative; margin-left: 20px;">
+                
+                <span style="position: relative;left: 22.5px;">
+                    <label for="name">Name: </label><abbr title="required" class="context-menu">&#8727;</abbr>
+                    <input type="text" id="name" name="name">
+                </span><br><br>
+                
+                <span style="position: relative;left: 17.5px;">
+                    <label for="email">E-mail: </label><abbr title="required" class="context-menu">&#8727;</abbr>
+                    <input type="text" id="email" name="email">
+                </span><br><br>
+                <label for="password">Password: </label><abbr title="required" class="context-menu">&#8727;</abbr>
+                <input type="text" id="password" name="password"><br>
+              </form>
+    </div>
+</body>
+</html>
